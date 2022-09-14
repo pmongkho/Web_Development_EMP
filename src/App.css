@@ -2,18 +2,23 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
+  color: #fff;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 
 .app{
+background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 display: flex;
 align-items: center;
 justify-content: center;
 }
 .container{
-height: 100vh;
+height: 100%;
 width: 100%;
 display: flex;
   flex-wrap: wrap;
@@ -27,13 +32,13 @@ align-items: center;
   flex-wrap: wrap;
 display: flex;
 align-items: center;
-justify-content: space-evenly;
+justify-content: center;
 width: 100%;
 
 }
 
 .col {
-
+margin: 20px;
 }
 
 .card{
